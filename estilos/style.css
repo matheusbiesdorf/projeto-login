@@ -28,7 +28,7 @@ main{
 
 section#login{
     background-color: white;
-    width: 250px;
+    width: 256px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden; /* Tudo que estiver fora da borda some */
@@ -56,4 +56,13 @@ section#login > div#imagem{
 section#login > div#formulario{
     padding: 10px;
     display: block;
+}
+
+section#login > div#formulario >h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section#login > div#formulario >p{
+    font-size: 0.8em;
 }
