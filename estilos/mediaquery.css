@@ -1,9 +1,13 @@
+/* CONFIGURAÇÕES GERAIS */
+
 @charset "UTF-8";
 
 :root{
     --verde:#49a09d;
     --lilas:#5f2c82;
 }
+
+/* TABLETS */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
@@ -12,6 +16,7 @@
 
     section#login{
         width: 80vw;
+        height: 320px;
     }
 
     section#login > div#imagem{
@@ -39,6 +44,7 @@
 
     section#login{
         width: 950px;
+        height: 380px;
     }
 
     section#login > div#imagem{
@@ -58,5 +64,6 @@
 
     section#login > div#formulario >p{
         font-size: 1.3em;
+        margin: 20px 0px;
     }
 }
