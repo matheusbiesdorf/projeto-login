@@ -97,7 +97,7 @@ div.campo > input{
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-12px); /* Mover 12px para cima */
+    transform: translateY(-13px); /* Mover 12px para cima */
 }
 
 div.campo > input:focus-within{ /* Quando um campo estiver selecionado, deixa em destaque */
