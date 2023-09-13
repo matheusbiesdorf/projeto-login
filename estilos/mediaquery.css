@@ -7,7 +7,7 @@
     --lilas:#5f2c82;
 }
 
-/* TABLETS */
+/* TELAS MÉDIAS */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
@@ -20,7 +20,7 @@
     }
 
     section#login > div#imagem{
-        float: left;
+        float: left; /* Deixa à esquerda */
         width: 30%;
         height: 100%;
     }
@@ -37,6 +37,8 @@
     
 }
 
+/* TELAS MAIORS */
+
 @media screen and (min-width: 993px){
     body{
         background-image: linear-gradient(to top, var(--verde), var(--lilas));
@@ -48,7 +50,7 @@
     }
 
     section#login > div#imagem{
-        float: right;
+        float: right; /* Deixa à direita */
         width: 50%;
         height: 100%;
     }
