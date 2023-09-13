@@ -28,7 +28,7 @@ main{
 
 section#login{
     background-color: white;
-    width: 256px;
+    width: 254px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden; /* Tudo que estiver fora da borda some */
@@ -75,12 +75,30 @@ form > div.campo{
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+}
+
+div.campo > input{
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100%-44px);
+    height: 100%;
+    transform: translateY(-10px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 div.campo > label{
     display: none;
+}
+
+div.campo > i{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 }
 
 /* ENTRAR */
